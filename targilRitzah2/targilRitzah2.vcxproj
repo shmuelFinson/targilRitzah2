@@ -146,6 +146,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DisjointSets.h" />
+    <ClInclude Include="DisNode.h" />
+    <ClInclude Include="Representor.h" />
+    <ClInclude Include="Volunteer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DisjointSets.cpp" />
+    <ClCompile Include="DisNode.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Representor.cpp" />
+    <ClCompile Include="Volunteer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
